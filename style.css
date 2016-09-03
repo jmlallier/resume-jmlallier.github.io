@@ -7,6 +7,20 @@ body.body {
   letter-spacing: 1px;
 }
 
+h1 a.title,
+h1 a.title:visited {
+  color: #333;
+  border-bottom: 2px solid transparent;
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+}
+
+h1 a.title:hover {
+  color: #555;
+  border-bottom: 2px solid transparent;
+  margin-left: 6px;
+}
+
 .padded-content {
   padding: 40px;
 }
